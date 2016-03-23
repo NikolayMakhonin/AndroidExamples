@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="AppTheme"></style>-->
+
+    <declare-styleable name="Styles">
+        <attr format="reference" name="MarkerLineStyle" />
+    </declare-styleable>
+
+    <declare-styleable name="MarkerLineStyle">
+        <attr format="color|reference" name="selectedRangeColor" />
+        <attr format="color|reference" name="selectedRangePointColor" />
+        <attr format="color|reference" name="textHighlightedColor" />
+        <attr format="color|reference" name="textColor" />
+        <attr format="color|reference" name="lineColor" />
+    </declare-styleable>
+
+</resources>
